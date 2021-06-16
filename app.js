@@ -40,9 +40,8 @@ function generatePassword() {
 
   let password = "";
   const val = stringEl.value;
-  const netlen = len - val; 
 
-  for (let i = 0; i < netlen; i++) {
+  for (let i = 0; i < len; i++) {
     const x = generateX();
     password += x;
   }
