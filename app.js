@@ -39,14 +39,14 @@ function generatePassword() {
   }
 
   let password = "";
-  const val = stringEl.value;
+  
 
   for (let i = 0; i < len; i++) {
     const x = generateX();
     password += x;
   }
 
-  
+  const val = stringEl.value;
   let val2 = val.concat(password);
 
   pwEl.innerText = val2;
