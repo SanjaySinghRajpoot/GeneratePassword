@@ -48,7 +48,7 @@ function generatePassword() {
   const val = stringEl.value;
   let val2 = val.concat(password);
 
-  pwEl.innerText = val2;  // change the inner text of this element 
+  pwEl.innerText = val2;  
 }
 
 function generateX() {
