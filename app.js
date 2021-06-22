@@ -55,11 +55,11 @@ function generateX() {
   const xs = [];
 
   if (upperEl.checked) {
-    xs.push(getUpperCase());
+    xs.push(getUpperCase());    // upper case function
   }
 
   if (lowerEl.checked) {
-    xs.push(getLowerCase());
+    xs.push(getLowerCase());   // lower case function
   }
 
   if (numberEl.checked) {
