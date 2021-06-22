@@ -39,17 +39,16 @@ function generatePassword() {
   }
 
   let password = "";
-  
 
   for (let i = 0; i < len; i++) {
-    const x = generateX();
+    const x = generateX();   // return a single random value 
     password += x;
   }
 
   const val = stringEl.value;
   let val2 = val.concat(password);
 
-  pwEl.innerText = val2;
+  pwEl.innerText = val2;  // change the inner text of this element 
 }
 
 function generateX() {
